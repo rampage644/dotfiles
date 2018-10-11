@@ -1,0 +1,43 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+alt+down",              "command": "editor.action.moveLinesDownAction",
+                                        "when": "editorTextFocus" },
+    { "key": "ctrl+alt+up",                "command": "editor.action.moveLinesUpAction",
+                                        "when": "editorTextFocus" },
+    {
+        "key": "ctrl+k ctrl+shift+enter",
+        "command": "jupyter.execCurrentCellAndAdvance",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+enter",
+        "command": "jupyter.execCurrentCell",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "editor.action.joinLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    }
+]
+
+// - jupyter:advanceToNextCell
+// - jupyter:displayCellMenu
+// - jupyter:execCurrentCell
+// - jupyter:execCurrentCellAndAdvance
+// - jupyter:execRangeInKernel
+// - jupyter:getAllKernelSpecsForLanguage
+// - jupyter:gotToNextCell
+// - jupyter:gotToPreviousCell
+// - jupyter:kernelInterrupt
+// - jupyter:kernelOptions
+// - jupyter:kernelRestart
+// - jupyter:kernelShutDown
+// - jupyter:proxyKernelOptionsCmd
+// - jupyter:sartKernelForKernelSpecs
+// - jupyter:selectKernel
