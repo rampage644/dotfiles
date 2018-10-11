@@ -1,0 +1,112 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // "editor.fontFamily": "Hack",
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.rulers": [79, 85, 119],
+    "editor.wordBasedSuggestions": true,
+    "editor.wordWrapColumn": 120,
+    "editor.wordWrap": "bounded",
+    "editor.renderWhitespace": "all",
+
+    "files.exclude": {
+        ".cache/": true,
+        ".circleci/": true,
+        ".mypy_cache/": true,
+        ".vscode/": true,
+        "**/__pycache__/": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/*.pyc": true,
+        "**/CVS": true
+    },
+
+    "window.menuBarVisibility": "hidden",
+
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": false,
+
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    "explorer.autoReveal": true,
+
+    "markdown.styles": [
+        "/home/ramp/md.css"
+    ],
+
+    "python.unitTest.pyTestEnabled": false,
+    "python.venvPath": "~/.venv",
+    "python.venvFolders": [
+        ".venv",
+    ],
+
+    "workbench.colorTheme": "Egoist One",
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.renderControlCharacters": false,
+
+    "[markdown]": {
+        "editor.quickSuggestions": false,
+        "editor.wordWrap": "bounded"
+    },
+
+    "workbench.colorCustomizations": {
+        "editor.selectionHighlightBackground": "#0f0f0f",
+        "activityBarBadge.background": "#388E3C",
+        "list.activeSelectionForeground": "#388E3C",
+        "list.inactiveSelectionForeground": "#388E3C",
+        "list.highlightForeground": "#388E3C",
+        "scrollbarSlider.activeBackground": "#388E3C50",
+        "editorSuggestWidget.highlightForeground": "#388E3C",
+        "textLink.foreground": "#388E3C",
+        "progressBar.background": "#388E3C",
+        "pickerGroup.foreground": "#388E3C",
+        "tab.activeBorder": "#388E3C",
+        "notificationLink.foreground": "#388E3C",
+        "editorWidget.resizeBorder": "#388E3C",
+        "editorWidget.border": "#388E3C",
+        "settings.modifiedItemIndicator": "#388E3C",
+        "settings.headerForeground": "#388E3C",
+        "panelTitle.activeBorder": "#388E3C",
+        "breadcrumb.activeSelectionForeground": "#388E3C",
+        "menu.selectionForeground": "#388E3C",
+        "menubar.selectionForeground": "#388E3C"
+    },
+    "extensions.ignoreRecommendations": false,
+    "editor.minimap.renderCharacters": false,
+
+    "[git-commit]": {
+        "editor.rulers": [
+          60
+        ]
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "window.closeWhenEmpty": false,
+    "git.confirmSync": false,
+    "gitlens.advanced.messages": {
+        "suppressResultsExplorerNotice": true,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.defaultDateStyle": "absolute",
+    "gitlens.keymap": "none",
+    "gitlens.historyExplorer.enabled": false,
+    "gitlens.gitExplorer.files.layout": "auto",
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.resultsExplorer.files.layout": "tree",
+    "window.zoomLevel": 0,
+    "explorer.openEditors.visible": 0,
+
+    "breadcrumbs.enabled": true,
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "1d5835378330147dce5bf9a108476b7f7a9b1cd7"
+        }
+    ],
+}
