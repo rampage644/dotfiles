@@ -102,11 +102,4 @@
     "explorer.openEditors.visible": 0,
 
     "breadcrumbs.enabled": true,
-    "github.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "1d5835378330147dce5bf9a108476b7f7a9b1cd7"
-        }
-    ],
 }
